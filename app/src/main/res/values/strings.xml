@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Flickster</string>
+
+    <string name="home">Home</string>
+    <string name="notification">Notification</string>
+    <string name="AddPost">AddPost</string>
+    <string name="Search">search</string>
+    <string name="User">User</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

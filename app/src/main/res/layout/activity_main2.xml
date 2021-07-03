@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="228dp"
+        android:layout_height="215dp"
+        android:background="@drawable/dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="364dp"
+        android:layout_height="51dp"
+        android:background="@color/black"
+        android:text="  Email"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/image5"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="@+id/image5"
+        app:layout_constraintTop_toBottomOf="@+id/image5"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:background="@color/black"
+        android:inputType="textPassword"
+        android:text="  Password"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edt1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edt1"
+        app:layout_constraintTop_toBottomOf="@+id/edt1"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <Button
+    android:id="@+id/btn_sign_in"
+    android:layout_width="306dp"
+    android:layout_height="46dp"
+    android:textColor="@color/black"
+    android:layout_marginEnd="32dp"
+    android:layout_marginRight="32dp"
+    android:backgroundTint="@color/teal_700"
+    android:text="LOG IN"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/edt2"
+    app:layout_constraintTop_toBottomOf="@+id/edt2"
+    app:layout_constraintVertical_bias="0.178" />
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="306dp"
+        android:layout_height="46dp"
+        android:textColor="@color/black"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="SIGN UP"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edt2"
+        app:layout_constraintTop_toBottomOf="@+id/edt2"
+        app:layout_constraintVertical_bias="0.178" />
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="serif"
+        android:text="F L I C K S T E R"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_sign_up"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_sign_up"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sign_up"
+        app:layout_constraintVertical_bias="0.723" />
+</androidx.constraintlayout.widget.ConstraintLayout>
